@@ -1,1 +1,0 @@
-package org.tutorial.ninja.domain;
