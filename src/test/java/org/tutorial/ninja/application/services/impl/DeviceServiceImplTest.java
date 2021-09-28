@@ -57,6 +57,7 @@ class DeviceServiceImplTest {
         assertEquals("windows", result.getName());
     }
 
+    // Test with exception
     @Test
     public void shouldNotRegisterADeviceWhenItIsRepeated() {
         final UUID id = UUID.randomUUID();
